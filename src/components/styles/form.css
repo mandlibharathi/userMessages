@@ -1,0 +1,31 @@
+
+.formstyles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: navy; */
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+
+.formbox{
+    width : 350px;
+    margin:'auto'; 
+  border:2px solid rgb(220, 220, 228);
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+  padding:10px
+}
+
+.formbox>button{
+    color: white;
+    height: 50px;
+    width: 250px;
+    background-color: navy;
+    font-size: 20px;
+    padding: 10px;
+    
+}
